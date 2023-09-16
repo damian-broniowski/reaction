@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "node_modules/.bin/webpack --mode production"
+
+  },
+  "dependencies": {
+    "browser-sync": "^2.29.3",
+    "phaser": "^3.60.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "cssnano": "^6.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "path": "^0.12.7",
+    "postcss": "^8.4.27",
+    "postcss-cli": "^10.1.0",
+    "postcss-loader": "^7.3.3",
+    "style-loader": "^3.3.3",
+    "uglify-js": "^3.17.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
